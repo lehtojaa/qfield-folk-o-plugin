@@ -20,7 +20,7 @@ Item {
 	id: dialog
 	parent: mainWindow.contentItem
 
-	title: "Gispon QField-projektit"
+	title: "QField-ohjeita"
 
 	visible: false
 	modal: true
@@ -250,5 +250,7 @@ Item {
 
   Component.onCompleted: {
 	iface.addItemToPluginsToolbar(pluginButton)
+	iface.addItemToMainMenuActionsToolbar(pluginButton)
+	iface.addItemToCanvasActionsToolbar(pluginButton)
   }
 }
