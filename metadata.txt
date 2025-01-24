@@ -1,0 +1,4 @@
+[general]
+name=folk-o-plugin
+description=Simply a plugin for testing & learning
+author=Jaakko
